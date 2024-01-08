@@ -105,16 +105,31 @@ ggplot(movies_fs, aes(x=Gross_Average/10000000,y=reorder(Genre,Gross_Average))) 
   )
 dev.off()
 
-#png(file="Images/Trending overtime movies genres.png", width=1200, height = 800)
-#ggplot(movies, aes(x=Year,y=Movies.Released,fill(Genre))) + geom_line()  + 
-#  labs(title = "Genres trending over time", x ="Years", y = "Movies Released")  +
-#  theme(
-#    plot.title = element_text(hjust = 0.5),
-#    panel.background = element_rect(fill='transparent'),
-#    plot.background = element_rect(fill='transparent', color=NA),
-#    panel.grid.major = element_blank(),
-#    panel.grid.minor = element_blank(),
-#    legend.background = element_rect(fill='transparent'),
-#    legend.box.background = element_rect(fill='transparent')
-#  )
-#dev.off()
+png(file="Images/Trending overtime movies genres.png", width=1200, height = 800)
+ggplot(movies, aes(x=Year,y=Movies.Released,group=Genre,color=Genre)) + geom_line()  + 
+  labs(title = "Genres trending over time", x ="Years", y = "Movies Released")  +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    panel.background = element_rect(fill='transparent'),
+    plot.background = element_rect(fill='transparent', color=NA),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent')
+  )
+dev.off()
+
+# gross genre over time
+png(file="Images/Trending overtime movies genres gross.png", width=1200, height = 800)
+ggplot(movies, aes(x=Year,y=Gross/10000000,group=Genre,color=Genre)) + geom_line()  + 
+  labs(title = "Genres trending over time", x ="Years", y = "Gross ($10 Million)")  +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    panel.background = element_rect(fill='transparent'),
+    plot.background = element_rect(fill='transparent', color=NA),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.background = element_rect(fill='transparent'),
+    legend.box.background = element_rect(fill='transparent')
+  )
+dev.off()
