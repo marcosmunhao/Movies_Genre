@@ -69,7 +69,7 @@ Table: Dataframe movies_pop ordered in a decreasing way by movies released
 |11 |Reality                |               5|        74035|       0.04|
 
 
-![](Images/Popularity of Genres by Movies Releasead.png)<!-- -->
+![](Images/Popularity-of-Genres-by-Movies-Releasead.png)
 
 
 Looking at movies released, for this dataset, Drama is the most popular genre, with almost 5000 movies between 1995 and 2018. It's followed by Comedy and Documentary. These threes, together, answer for almost 67% of all movies released. As we'll see, this actually doesn't mean that they are popular genres, but that they have a largest film catalog. I know that we can think about the offer and demand, so let's take a look at tickets sold. 
@@ -96,7 +96,7 @@ Table: Dataframe movies_pop oredered in a decreasing way by tickets sold
 |9  |Multiple Genres        |              39|      3676146|       0.01|
 |11 |Reality                |               5|        74035|       0.00|
 
-![](Images/Popularity of Genres by Tickets Sold.png)<!-- -->
+![](Images/Popularity-of-Genres-by-Tickets-Sold.png)<!-- -->
 
 Here we can see that adding tickets from Adventure and Action movies, they sold more tickets than all of our previous top 3 most popular genres added together. Actually, Adventure almost made it alone. I think this is a better way to understand the popularity of a genre movie, because it's actually the public response. We need to consider that these are movies for almost everyone and easy to watch, despite film's budget. Related to the idea of measure the popularity of a genre or movie by how many tickets they sold, we will look now for financial success.
 
@@ -110,7 +110,7 @@ Besides "Total_Gross_genre", we see a variable called "Top_Movie_Gross", which g
 
 ### Gross by Genre
 
-![](Images/Financial Success by genres.png)<!-- -->
+![](Images/Financial-Success-by-genres.png)<!-- -->
 
 We can see that Adventure, Action and Drama are the most successful genres, like we expected. Summing these with Comedy, we have 78.2% of all gross of all genres from 1995 to 2018, turning them into the most profitable genres.
 
@@ -123,7 +123,7 @@ The first thing to note is that Drama and Comedy leave the top positions for and
 
 It's important to remember that in the same period, when Adventure and Action released a little bit more than 1000 movies, Drama and Comedy released around 5000 and 2500, respectively, which has a serious impact in our metrics.
 
-![](Images/Financial Success by genre average gross.png)<!-- -->
+![](Images/Financial-Success-by-genre-average-gross.png)<!-- -->
 
 So, the most profitable genres are Adventure and Action, with mention to Musical and Horror, that won't released so many movies, but have a good revenue. Futhermore, movies made by famous film studios, called blockbusters, even when they failure, they pull up the revenue of their genre. 
 
@@ -134,7 +134,7 @@ In this section we can see that, even not being the most profitable genre, drama
 
 Documentary has an interesting behavior after early 2000s, when it grows and reach the second position in the rank that was occupied by Comedy, which fell to third.
 
-![](Images/Trending overtime movies genres.png)<!-- -->
+![](Images/Trending-overtime-movies-genres.png)<!-- -->
 
 Adventure, Action and Thriller or Suspense slightly detach from the last genres, but like them, they remain constant in recent years, with some oscillations.
 
@@ -146,7 +146,7 @@ Drama is a stable genre in general and Comedy is in decline, after its peak near
 
 Musical genre after 2015 had an increasing revenue for a short time, may one or two hit movies are the cause (Beauty and the Beast - 2017).
 
-![](Images/Trending overtime movies genres gross.png)<!-- -->
+![](Images/Trending-overtime-movies-genres-gross.png)<!-- -->
 
 # Top 10 Highest-Grossing Movies
 
@@ -154,7 +154,7 @@ Here, I used the column called "Top.Movie.Inflation.Adjusted.Gross..That.Year." 
 
 I put different colors to identify genres and, as expected, Adventure and Action dominate the highest-grossing movies.
 
-![](Images/Top 10 highest-grossing movies.png)<!-- -->
+![](Images/Top-10-highest-grossing-movies.png)<!-- -->
 
 Splitting the period in three (1995-2002, 2003-2010, 2011-2018) we observe that in the highest-grossing movies, 90% of the films were released in the first or the third period. The gap that we observe could be or not related to some other aspect like economic crisis, beyond good or bad movies.
 
