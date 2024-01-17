@@ -1,13 +1,4 @@
----
-title: "Movie Genres Statistics"
-author: "Marcos Munhão"
-output: 
-  html_document: 
-    toc: true
-    keep_md: true
----
-
-
+# Movie Genre Statistics
 
 This is my first project using R language, so I tried to explore the dataset and extract some information about it. It shows:
 
