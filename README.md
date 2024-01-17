@@ -1,7 +1,7 @@
 # Movie Genre Statistics
 
 
-This is my first project using R language, so I tried to explore the dataset and extract some information about it. It shows:
+This is my first project using R language, so I tried to explore the dataset and extract some information about it. Using the file called "Movies.R" I could explore:
 
 - Genres Popularity by movies released and tickets sold
 - Financial Success by adding the gross of each genre over the years and using an average of the total gross divided by the sum of movies released in each genre
